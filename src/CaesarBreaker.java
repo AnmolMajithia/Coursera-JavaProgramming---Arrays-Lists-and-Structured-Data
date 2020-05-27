@@ -65,9 +65,9 @@ public class CaesarBreaker {
 
     private void testDecryptTwoKeys() {
 //        System.out.println(decryptTwoKeys("fbfbfbf Bknlm"));
-        System.out.println(decryptTwoKeys("Top ncmy qkff vi vguv vbg ycpx"));
+//        System.out.println(decryptTwoKeys("Aal uttx hm aal Qtct Fhljha pl Wbdl. Pvxvxlx!"));
 //        System.out.println(decryptTwoKeys("Akag tjw Xibhr awoa aoee xakex znxag xwko"));
-//        System.out.println(decryptTwoKeys(new FileResource().asString()));
+        System.out.println(decryptTwoKeys(new FileResource().asString()));
     }
 
     private void testDecrypt() {

@@ -29,11 +29,12 @@ public class CaesarCipher {
     }
 
     private void testCaesar() {
-        System.out.println(encrypt("eeeeeee Anmol", 23));
-        System.out.println(encrypt("At noon be in the conference room with your hat on for a surprise party. YELL LOUD!", 15));
-        System.out.println(encryptTwoKeys("At noon be in the conference room with your hat on for a surprise party. YELL LOUD!", 8, 21));
-        System.out.println(encryptTwoKeys("eeeeeee Anmol", 1, 23));
-        System.out.println(encryptTwoKeys("Top ncmy qkff vi vguv vbg ycpx", 26-2, 26-20));
+        System.out.println(encrypt("Can you imagine life WITHOUT the internet AND computers in your pocket?", 15));
+//        System.out.println(encrypt("At noon be in the conference room with your hat on for a surprise party. YELL LOUD!", 15));
+        System.out.println(encryptTwoKeys("Can you imagine life WITHOUT the internet AND computers in your pocket?", 21, 8));
+//        System.out.println(encryptTwoKeys("eeeeeee Anmol", 1, 23));
+//        System.out.println(encryptTwoKeys("Top ncmy qkff vi vguv vbg ycpx", 26-2, 26-20));
+        System.out.println(encryptTwoKeys("Hfs cpwewloj loks cd Hoto kyg Cyy.", 26-14, 26-24));
 //        int key = 23;
 //        FileResource fr = new FileResource();
 //        String message = fr.asString();
