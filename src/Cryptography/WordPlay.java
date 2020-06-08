@@ -1,3 +1,5 @@
+package Cryptography;
+
 public class WordPlay {
     private boolean isVowel(char ch) {
         ch = Character.toUpperCase(ch);

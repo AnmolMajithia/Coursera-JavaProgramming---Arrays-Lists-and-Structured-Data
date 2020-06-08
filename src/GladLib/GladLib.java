@@ -1,3 +1,5 @@
+package GladLib;
+
 import edu.duke.*;
 import java.util.*;
 
@@ -17,7 +19,7 @@ public class GladLib {
 	private final Random myRandom;
 	
 	private static final String dataSourceURL = "http://dukelearntoprogram.com/course3/data";
-	private static final String dataSourceDirectory = "/home/anmol/JavaProjects/Coursera/JavaProgramming-2/data/GladLib/data";
+	private static final String dataSourceDirectory = "/home/anmol/JavaProjects/Coursera/JavaProgramming-2/data/GladLib.GladLib/data";
 	
 	public GladLib(){
 		initializeFromSource(dataSourceDirectory);
@@ -115,21 +117,17 @@ public class GladLib {
 		String story = "";
 		if (source.startsWith("http")) {
 			URLResource resource = new URLResource(source);
-			for(String word : resource.words()){
-				story = story + processWord(word) + " ";
-			}
+			for(String word : resource.words()) story += processWord(word) + " ";
 		}
 		else {
 			FileResource resource = new FileResource(source);
-			for(String word : resource.words()){
-				story = story + processWord(word) + " ";
-			}
+			for(String word : resource.words()) story += processWord(word) + " ";
 		}
 		return story;
 	}
 	
 	private ArrayList<String> readIt(String source){
-		ArrayList<String> list = new ArrayList<String>();
+		ArrayList<String> list = new ArrayList<>();
 		if (source.startsWith("http")) {
 			URLResource resource = new URLResource(source);
 			for(String line : resource.lines()){

@@ -1,3 +1,5 @@
+package GladLib;
+
 import edu.duke.DirectoryResource;
 import edu.duke.FileResource;
 

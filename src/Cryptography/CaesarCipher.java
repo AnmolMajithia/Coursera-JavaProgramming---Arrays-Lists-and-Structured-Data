@@ -1,4 +1,4 @@
-import edu.duke.FileResource;
+package Cryptography;
 
 public class CaesarCipher {
     protected String encrypt(String input, int key) {

@@ -1,3 +1,5 @@
+package GladLib;
+
 import edu.duke.FileResource;
 
 import java.util.ArrayList;

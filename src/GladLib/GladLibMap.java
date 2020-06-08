@@ -1,3 +1,5 @@
+package GladLib;
+
 import edu.duke.DirectoryResource;
 import edu.duke.FileResource;
 import edu.duke.URLResource;
@@ -16,7 +18,7 @@ public class GladLibMap {
 	private final Random myRandom;
 
 	private static String dataSourceURL = "http://dukelearntoprogram.com/course3/data";
-	private static final String dataSourceDirectory = "/home/anmol/JavaProjects/Coursera/JavaProgramming-2/data/GladLib/data";
+	private static final String dataSourceDirectory = "/home/anmol/JavaProjects/Coursera/JavaProgramming-2/data/GladLib.GladLib/data";
 
 	public GladLibMap(){
 		myMap = new HashMap<>();

@@ -1,3 +1,5 @@
+package Cryptography;
+
 import edu.duke.FileResource;
 
 public class WordLengths {
